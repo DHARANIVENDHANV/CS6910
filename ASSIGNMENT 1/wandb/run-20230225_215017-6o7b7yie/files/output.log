@@ -1,0 +1,10 @@
+without one-hot encoding
+shape of x_train : (784, 60000)
+shape of y_train : (1, 60000)
+shape of x_test  : (784, 10000)
+shape of y_test  : (1, 10000)
+after one_hot encoding
+number of classes: 10
+shape of x_train : (784, 60000)
+shape of y_train : (10, 60000)
+shape of x_test  : (784, 10000)

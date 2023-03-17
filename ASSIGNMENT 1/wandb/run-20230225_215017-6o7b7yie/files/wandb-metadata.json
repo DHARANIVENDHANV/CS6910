@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-02-25T16:20:19.025695",
+    "startedAt": "2023-02-25T16:20:17.996066",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "CS6910/ASSIGNMENT 1/DEEP LEARNING ASS_1.ipynb",
+    "root": "C:\\Users\\Dharani",
+    "host": "LAPTOP-LVM639UO",
+    "username": "Dharani",
+    "executable": "C:\\Users\\Dharani\\anaconda3\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2208.0,
+        "min": 0.0,
+        "max": 2208.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2208.0,
+            "min": 0.0,
+            "max": 2208.0
+        }
+    ],
+    "disk": {
+        "total": 117.99511337280273,
+        "used": 109.76412582397461
+    },
+    "gpu": "GeForce GTX 1050",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "GeForce GTX 1050",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.876270294189453
+    }
+}
