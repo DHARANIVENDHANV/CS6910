@@ -21,9 +21,9 @@ Note:please remember to change the name of the project in the corresponding line
 https://wandb.ai/dharanivendhanv01/Deep%20Learning%20Assignment/reports/CS6910-Assignment-1--VmlldzozODE1NjAx
 
 #### project explanation:
-1.#assign# code contains all the necessary functions for neural network model for training Fashion-MNIST datasets for image classification.It contains all the optimizers such as stochastic,momentum,RMSprop,adam,nadam.This code suits for MNIST dataset too 
+1.[DL_Assignment1.ipynb](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1.ipynb) code contains all the necessary functions for neural network model for training Fashion-MNIST datasets for image classification.It contains all the optimizers such as stochastic,momentum,RMSprop,adam,nadam.This code suits for MNIST dataset too 
 
-2.#deeplearningass# code contains feedforward neural network(Qn.3) for specifying number of neurons per hidden layer 
+2.[DL_Assignment1_FF.ipynb](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1_FF.ipynb) code contains feedforward neural network(Qn.3) for specifying number of neurons per hidden layer 
 
 3.#deeplearningass1# code contains all the sweep operations performed by wandb for cross entropy(Qn.4) and mean squared error loss functions(Qn.8) for Fashion-MNIST datasets.This code also generates plots such as scatterplot for validation accuracy(Qn.5) and parallel co-ordinate plot, corelation summary(Qn.6).It also contains cofusion matrix plot for the best train and validation accuracy(Qn.7) 
 
