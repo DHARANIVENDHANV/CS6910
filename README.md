@@ -2,7 +2,8 @@
 ### Dharanivendhan v (ed22s006)
 #### Instructions to train and evaluate neural network models:
 
-1. Install the libraries required for the project using the command below:
+1.Install the libraries required for the project using the command below:
+
 [pip install -r requirements.txt]
 
 2.There are two ways to use the notebook [here](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1.ipynb) to train a neural network model for image classification on the Fashion-MNIST dataset using categorical cross-entropy loss:
@@ -26,9 +27,9 @@ https://wandb.ai/dharanivendhanv01/Deep%20Learning%20Assignment/reports/CS6910-A
 
 2.[DL_Assignment1_FF.ipynb](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1_FF.ipynb) code contains feedforward neural network(Qn.3) for specifying number of neurons per hidden layer 
 
-3. [DL_Assignment1.ipynb](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1.ipynb) code contains all the sweep operations performed by wandb for cross entropy(Qn.4) and mean squared error loss functions(Qn.8) for Fashion-MNIST datasets.This code also generates plots such as scatterplot for validation accuracy(Qn.5) and parallel co-ordinate plot, corelation summary(Qn.6).It also contains cofusion matrix plot for the best train and validation accuracy(Qn.7) 
+3.[DL_Assignment1.ipynb](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1.ipynb) code contains all the sweep operations performed by wandb for cross entropy(Qn.4) and mean squared error loss functions(Qn.8) for Fashion-MNIST datasets.This code also generates plots such as scatterplot for validation accuracy(Qn.5) and parallel co-ordinate plot, corelation summary(Qn.6).It also contains cofusion matrix plot for the best train and validation accuracy(Qn.7) 
 
-4. [DL_Assignment1__MNIST.ipynb](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1__MNIST.ipynb) code contains the best three hyper-parameter configurations recommendation for MNIST datasets(Qn.10)
+4.[DL_Assignment1__MNIST.ipynb](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1__MNIST.ipynb) code contains the best three hyper-parameter configurations recommendation for MNIST datasets(Qn.10)
 
 #### Neural_Network framework:
 The code is developed from scratch without any libraries used for training models.This works for multiclass or singleclass classification problem as the last layer could take activation function accordingly as softmax or sigmoid.For the hyper-parameter search user needs to use functions Neural_Network()
