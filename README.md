@@ -10,15 +10,15 @@ a. To use the best values for hyperparameters obtained from the wandb sweeps fun
 
 b. If you want to perform the hyperparameter manually feed it yourself, run the entire notebook.
 
-3.To train the neural network model using mean squared error loss function for Fashion-MNIST image classification use the notebook #Assignment1_MSE#.Instructions apply same as above
+3.To train the neural network model using mean squared error loss function for Fashion-MNIST image classification use the notebook [DL_Assignment1__MNIST.ipynb](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1__MNIST.ipynb).Instructions apply same as above
 
-4.To train the MNIST dataset for the best three hyper-parameter configurations, access the notebook #assignment_1_MNIST.
-5.
+4.To train the MNIST dataset for the best three hyper-parameter configurations, access the notebook [DL_Assignment1__MNIST.ipynb](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1__MNIST.ipynb).
+
 
 Note:please remember to change the name of the project in the corresponding line of code whenever you need to log in wandb
 
 #### Link to the project report:
------
+(https://wandb.ai/dharanivendhanv01/Deep%20Learning%20Assignment/reports/CS6910-Assignment-1--VmlldzozODI5ODEz/edit)[https://wandb.ai/dharanivendhanv01/Deep%20Learning%20Assignment/reports/CS6910-Assignment-1--VmlldzozODI5ODEz/edit]
 
 #### project explanation:
 1.#assign# code contains all the necessary functions for neural network model for training Fashion-MNIST datasets for image classification.It contains all the optimizers such as stochastic,momentum,RMSprop,adam,nadam.This code suits for MNIST dataset too 
