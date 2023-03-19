@@ -4,7 +4,7 @@
 1. Install the libraries required for the project using the command below:
 [pip install -r requirements.txt]
 
-2.There are two ways to use the notebook #"DEEP LEARNING_Assignment1.ipynb"# to train a neural network model for image classification on the Fashion-MNIST dataset using categorical cross-entropy loss:
+  2.There are two ways to use the notebook [here](https://github.com/DHARANIVENDHANV/CS6910/blob/master/ASSIGNMENT%201/DL_Assignment1.ipynb) to train a neural network model for image classification on the Fashion-MNIST dataset using categorical cross-entropy loss:
 
 a. To use the best values for hyperparameters obtained from the wandb sweeps functionality, skip running cells in the section titled "Hyperparameter tuning using Sweeps" and run all other cells of the notebook to train the model. The final model will be trained on the entire training set and evaluated on the test set.
 
