@@ -1,6 +1,7 @@
 # CS6910 ASSIGNMENT 1
 ### Dharanivendhan v (ed22s006)
 #### Instructions to train and evaluate neural network models:
+
 1. Install the libraries required for the project using the command below:
 [pip install -r requirements.txt]
 
