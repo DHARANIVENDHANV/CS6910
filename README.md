@@ -5,7 +5,9 @@
 [pip install -r requirements.txt]
 
 2.There are two ways to use the notebook #"DEEP LEARNING_Assignment1.ipynb"# to train a neural network model for image classification on the Fashion-MNIST dataset using categorical cross-entropy loss:
+
 a. To use the best values for hyperparameters obtained from the wandb sweeps functionality, skip running cells in the section titled "Hyperparameter tuning using Sweeps" and run all other cells of the notebook to train the model. The final model will be trained on the entire training set and evaluated on the test set.
+
 b. If you want to perform the hyperparameter manually feed it yourself, run the entire notebook.
 
 3.To train the neural network model using mean squared error loss function for Fashion-MNIST image classification use the notebook #Assignment1_MSE#.Instructions apply same as above
@@ -20,8 +22,12 @@ Note:please remember to change the name of the project in the corresponding line
 
 #### project explanation:
 1.#assign# code contains all the necessary functions for neural network model for training Fashion-MNIST datasets for image classification.It contains all the optimizers such as stochastic,momentum,RMSprop,adam,nadam.This code suits for MNIST dataset too 
-2.#deeplearningass1# code contains all the sweep operations performed by wandb for cross entropy(Qn.4) and mean squared error loss functions(Qn.8) for Fashion-MNIST datasets.This code also generates plots such as scatterplot for validation accuracy(Qn.5) and parallel co-ordinate plot, corelation summary(Qn.6)
-3.#ass1MNIST# code contains the best three hyper-parameter configurations recommendation for MNIST datasets(Qn.10)
+
+2.#deeplearningass# code contains feedforward neural network(Qn.3) for specifying number of neurons per hidden layer 
+
+3.#deeplearningass1# code contains all the sweep operations performed by wandb for cross entropy(Qn.4) and mean squared error loss functions(Qn.8) for Fashion-MNIST datasets.This code also generates plots such as scatterplot for validation accuracy(Qn.5) and parallel co-ordinate plot, corelation summary(Qn.6).It also contains cofusion matrix plot for the best train and validation accuracy(Qn.7) 
+
+4.#ass1MNIST# code contains the best three hyper-parameter configurations recommendation for MNIST datasets(Qn.10)
 
 #### Neural_Network framework:
 The code is developed from scratch without any libraries used for training models.This works for multiclass or singleclass classification problem as the last layer could take activation function accordingly as softmax or sigmoid.For the hyper-parameter search user needs to use functions Neural_Network()
