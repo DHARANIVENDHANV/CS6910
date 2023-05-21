@@ -1,10 +1,11 @@
 # Character-level Neural Machine Transliteration (Seq2Seq) with Attention
 
-This repository contains an implementation of a character-level neural machine transliteration model with attention mechanism using PyTorch. The model is designed to transliterate English words into Hindi. 
+This repository contains an implementation of a character-level neural machine transliteration model with attention mechanism using PyTorch. 
+The model is designed to transliterate English words into Hindi. 
 
 ## Overview
 
-The transliteration model consists of an encoder-decoder architecture with an attention mechanism. The encoder processes the input English sequence, while the decoder generates the corresponding Hindi transliteration character by character. The attention mechanism allows the decoder to focus on different parts of the input sequence during the generation process.
+The transliteration model consists of an encoder-decoder architecture with and without attention mechanism. The encoder processes the input English sequence, while the decoder generates the corresponding Hindi transliteration character by character. The attention mechanism allows the decoder to focus on different parts of the input sequence during the generation process.
 
 ## Installation
 
